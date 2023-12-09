@@ -4,4 +4,5 @@ RUN pip install \
     ipykernel \
     jupyterlab \
     qiskit-ibm-runtime \
-    qiskit[visualization]
+    qiskit[visualization] \
+    && rm -rf /root/.cache/pip/*
