@@ -6,3 +6,5 @@ RUN pip install \
     qiskit-ibm-runtime \
     qiskit[visualization] \
     && rm -rf /root/.cache/pip/*
+
+USER vscode
