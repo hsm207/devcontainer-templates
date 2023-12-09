@@ -1,0 +1,24 @@
+{
+    "id": "qiskit",
+    "version": "0.0.1",
+    "name": "Qiskit",
+    "description": "Learn quantum computing with Qiskit",
+    "documentationURL": "https://github.com/hsm207/devcontainer-templates/tree/main/src/color",
+    "publisher": "Mohd Shukri Hasan",
+    "licenseURL": "https://github.com/hsm207/devcontainer-templates/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Python version:",
+            "proposals": [
+                "3.12-bookworm",
+                "3.11-bookworm",
+                "3.10-bookworm"
+            ],
+            "default": "3.12-bookworm"
+        }
+    },
+    "platforms": [
+        "Python"
+    ]
+}
