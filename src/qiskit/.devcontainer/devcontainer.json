@@ -1,4 +1,16 @@
 {
     "name": "Qiskit",
-    "dockerFile": "Dockerfile"
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "eamodio.gitlens",
+                "GitHub.copilot",
+                "GitHub.copilot-chat",
+                "GitHub.vscode-pull-request-github",
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    }
 }
